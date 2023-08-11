@@ -1,0 +1,91 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #59564b;
+    color: #cccccc;
+}
+.page-container{
+    margin:auto;
+    justify-content: center;
+    padding: 1em 1em 1em 1em;
+    max-width: 700px;
+}
+
+.header-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.potrait {
+    padding-right: 2em;
+}
+.intro-text {
+    max-width: 353px;
+}
+
+.header-links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.header-links > div {
+    padding-right: 2em;
+    font-size: 1.5em;
+}
+
+.body-wrapper {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    padding-bottom: 3em;
+    border-bottom: 3px solid #cccccc;
+}
+
+.works-link {
+    font-size: 3em;
+}
+.works-description{
+    margin-bottom: 2em;
+}
+.works-link-detail {
+    font-size: 1em;
+}
+
+.footer-container {
+    margin:auto;
+    justify-content: center;
+    padding: 1em 1em 3em 1em;
+    max-width: 700px;
+    color: grey;
+}
+
+h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+h2 {
+    font-weight: normal;
+    font-size: 2em;
+}
+
+p {
+    line-height: 1.4em;
+}
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+a:link {
+    color: #c8ab37;
+    text-decoration: none;
+}
+a:visited {
+    color: #c8ab37;
+}
+a:hover {
+    color: #fae075;
+}
+a:active {
+    color: #fae075;
+}
